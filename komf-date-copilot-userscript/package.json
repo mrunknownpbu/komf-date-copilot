@@ -1,0 +1,25 @@
+{
+  "name": "komf-date-copilot-userscript",
+  "version": "1.0.0",
+  "description": "A userscript for enhancing date functionalities in applications.",
+  "main": "src/main.ts",
+  "scripts": {
+    "build": "tsc",
+    "start": "ts-node src/main.ts",
+    "test": "echo \"No tests specified\" && exit 0"
+  },
+  "dependencies": {
+    "typescript": "^4.5.4",
+    "ts-node": "^10.4.0"
+  },
+  "devDependencies": {
+    "@types/node": "^16.11.7"
+  },
+  "keywords": [
+    "userscript",
+    "date",
+    "kopm-date-copilot"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}
