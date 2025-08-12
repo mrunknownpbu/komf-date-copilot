@@ -1,0 +1,28 @@
+application:
+  name: komf-plus
+  version: 1.0.0
+
+logging:
+  level:
+    root: INFO
+    com.example: DEBUG
+
+manga:
+  api:
+    base-url: https://api.example.com/manga
+    timeout: 5000
+
+updates:
+  schedule:
+    cron: "0 0 * * *"  # Daily at midnight
+    enabled: true
+
+database:
+  url: jdbc:mysql://localhost:3306/komf
+  username: user
+  password: password
+
+external-services:
+  manga-updates:
+    url: https://manga-updates.example.com/api
+    api-key: your_api_key_here
